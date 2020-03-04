@@ -21,6 +21,7 @@ class GifSearch extends React.Component{
       />
       <button 
         type="submit"
+        className="btn btn-info"
         onClick={ event => {
           event.preventDefault()
           this.props.handleQuerySearch(this.state.query)
